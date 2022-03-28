@@ -2,11 +2,11 @@ const mongoose =require ("mongoose");
 
 const JokeSchema =new mongoose.Schema({
     setup:{
-        type:string,
+        type:String,
         required:[true, "setup is required"]
     },
     punchline:{
-        type:string,
+        type:String,
         required:[true, "punchline  is required"]
     },
 }, {timestamps:true})
